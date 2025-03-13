@@ -1,0 +1,52 @@
+@media screen and (width < 992px) {
+    .hero {
+        font-size: 1.1em;
+    }
+    .main {
+        font-size: 1.2em;
+        gap: 5px;
+    }
+}
+
+@media screen and (width < 768px) {
+    .logo {
+        width: 60px;
+    }
+    .main-nav {
+        font-size: 1.3em;
+    }
+    .icons img {
+        max-width: 30px;
+    }
+    .section-model {
+        flex-direction: column;
+    }
+    .invert-sm {
+        flex-direction: column-reverse;
+    }
+    .figures figure {
+        font-size: 1.2em;
+        padding: 15px 5px;
+    }
+}
+
+@media screen and (width < 576px) {
+    .hero img {
+        display: none;
+    }
+    .main-nav {
+        display: none;
+    }
+    .icons button:not(.menu) {
+        display: none;
+    }
+    .main-header {
+        padding: 8px;
+    }
+    .logo {
+        width: 50px;
+    }
+    .menu {
+        display: block;
+    }
+}

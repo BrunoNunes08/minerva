@@ -29,6 +29,11 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+.hero img {
+    width: 30%;
+    max-width: 350px;
+}
+
 .hero-options {
     display: flex;
     flex-direction: column;
@@ -111,6 +116,10 @@ body {
     }
 }
 
+.menu {
+    display: none;
+}
+
 .main {
     display: flex;
     flex-direction: column;
@@ -176,7 +185,7 @@ body {
     
     & img {
         max-width: 200px;
-        width: 100%;
+        width: 70%;
         aspect-ratio: 1/1;
         object-fit: cover;
     }
@@ -184,13 +193,5 @@ body {
 
 .figures-color figure {
     background-color: #613659;
-}
-
-@media screen and (width < 992px) {
-    .hero img {
-        display: none;
-    }
-    .main {
-        font-size: 1.2em;
-    }
+    border-radius: 5px;
 }
