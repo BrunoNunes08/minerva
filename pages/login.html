@@ -1,11 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../media-query.css">
+    <title>Login - Minerva</title>
 </head>
 <body>
-    
+    <header class="main-header">
+        <img src="../assets/minerva.png" alt="" class="logo">
+    </header>
+    <main class="main-login">
+        <h1>Login</h1>
+        <form class="form-login">
+            <div class="div-input">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email">
+            </div>
+            <div class="div-input">
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" placeholder="Senha">
+            </div>
+            <button type="submit" class="submit-button">Logar-se</button>
+        </form>
+        <div class="form-links">Não possui uma conta? <a href="register.html">Cadastre-se</a></div>
+        <div class="form-links">
+            <a href="">Estude Sem Fazer Cadastro</a>
+        </div>
+    </main>
 </body>
 </html>

@@ -1,11 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../media-query.css">
+    <title>Cadastro - Minerva</title>
 </head>
 <body>
-    
+    <header class="main-header">
+        <img src="../assets/minerva.png" alt="" class="logo">
+    </header>
+    <main class="main-register">
+        <h1>Cadastro</h1>
+        <form class="form-register">
+            <div class="div-inputs">
+                <div class="div-input">
+                    <label for="username">Nome de Usuário:</label>
+                    <input type="text" id="username" name="username" placeholder="Nome de Usuário">
+                </div>
+                <div class="div-input">
+                    <label for="birthdate">Data de Nascimento:</label>
+                    <input type="date" id="birthdate" name="birthdate">
+                </div>
+            </div>
+            <div class="div-inputs">
+                <div class="div-input">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Email">
+                </div>
+                <div class="div-input">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" placeholder="Senha">
+                </div>
+            </div>
+            <button type="submit" class="submit-button">Cadastre-se</button>
+        </form>
+        <div class="form-links">Já possui uma conta? <a href="login.html">Faça login</a></div>
+        <div class="form-links">
+            <a href="">Estude Sem Fazer Cadastro</a>
+        </div>
+    </main>
 </body>
 </html>

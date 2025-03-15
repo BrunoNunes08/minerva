@@ -19,6 +19,7 @@
         max-width: 30px;
     }
     .section-model {
+        gap: 5px;
         flex-direction: column;
     }
     .invert-sm {
@@ -37,7 +38,7 @@
     .main-nav {
         display: none;
     }
-    .icons button:not(.menu) {
+    .icons :is(button, a):not(:is(.button-menu)) {
         display: none;
     }
     .main-header {
@@ -46,7 +47,35 @@
     .logo {
         width: 50px;
     }
-    .menu {
+    .button-menu {
         display: block;
+    }
+    .main {
+        font-size: 1.2em;
+    }
+    .figures-color figure {
+        padding: 20px 15px;
+        font-size: 1.2em;
+        gap: 15px;
+        
+        & img {
+            width: 100%;
+        }
+    }
+    .div-inputs {
+        flex-direction: column;
+    }
+}
+
+@media screen and (width < 500px) {
+    .figures-color figure {
+        font-size: .7em;
+        & img {
+            width: 50px !important;
+        }
+    }
+
+    .figures:not(.figures-color) figure {
+        font-size: .7em;
     }
 }

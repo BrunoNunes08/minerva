@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minerva</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media-query.css">
+    <script src="script.js" type="module"></script>
 </head>
 <body>
     <section class="hero">
@@ -30,16 +31,24 @@
             <button>
                 <img src="assets/notifications.png" alt="">
             </button>
-            <button>
+            <a href="#">
                 <img src="assets/account.png" alt="">
-            </button>
+            </a>
             <button>
                 <img src="assets/settings.png" alt="">
             </button>
-            <button class="menu">
+            <button class="button-menu">
                 <img src="assets//menu.png" alt="">
             </button>
         </div>
+        <nav class="menu closed">
+            <a href="">Desafios</a>
+            <a href="">Explicações</a>
+            <a href="">Ranking</a>
+            <a href="">Notificações</a>
+            <a href="">Perfil</a>
+            <a href="">Configurações</a>
+        </nav>
     </header>
     <main class="main">
         <section class="section-model">
@@ -93,5 +102,6 @@
             </div>
         </section>
     </main>
+    <div class="backdrop"></div>
 </body>
 </html>
