@@ -8,6 +8,10 @@
     font-size: 62,5%;
 }
 
+img {
+    font-size: 0.9em;
+}
+
 body {
     background-color: #211522;
     display: flex;
@@ -258,7 +262,6 @@ body {
     font-size: 0.9em;
     padding: 5px;
     border: none;
-    outline: none;
     border-radius: 8px;
 }
 
